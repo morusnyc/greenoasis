@@ -17,11 +17,12 @@ layout: default
 {% if viewer %}
   <div class='item-view'>
     <span class='pagination-link' id='prevlink'></span>
-    {% if viewer == 'openseadragon' %}
+    <div class="d-none d-md-block w-100">
       {% include osd_iiif_image_viewer.html manifest=page.manifest prevlink=prevlink nextlink=nextlink %}
-    {% else %}
-       {% include simple_image_viewer.html full_image=page.full prevlink=prevlink nextlink=nextlink %}
-    {% endif %}
+    </div>
+    <div class="d-block d-md-none w-100">
+      {% include simple_image_viewer.html full_image=page.full prevlink=prevlink nextlink=nextlink %}
+    </div>
     <span class='pagination-link' id='nextlink'></span>
   </div>
   {% unless layout.pagination == false %}{% include item_pagination.html %}{% endunless %}

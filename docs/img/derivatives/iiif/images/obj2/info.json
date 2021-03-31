@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "/greenoasis/img/derivatives/iiif/images/obj2",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2116,
+  "height": 1413,
+  "sizes": [
+    {
+      "width": 2116,
+      "height": 1413
+    },
+    {
+      "width": 250,
+      "height": 167
+    },
+    {
+      "width": 1140,
+      "height": 761
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -18,12 +18,13 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+destination:      './docs'
+title:            'MoRUS'
+description:      'Green Oasis Community Garden'
 url:              ''
 baseurl:          '/greenoasis'
-copyright:        'Example copyright org, 2019'
-logo:             '/assets/logo.png'
+copyright:        'MoRUS, 2021'
+logo:             '/img/logo.png'
 
 # ---------------------------------------------------------------
 # BUILD SETTINGS
@@ -131,11 +132,11 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
+      link: 'https://github.com/morusnyc/greenoasis'
     - label: 'Credits'
       link: '/credits'
     - label: 'Contact'
-      link: 'https://gitter.im/minicomp/wax/'
+      link: 'http://morusnyc.org/'
   logos:
     - img: '/img/logo.png'
 

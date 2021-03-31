@@ -8,9 +8,9 @@ layout: none
   "label": "morus_collection",
   "manifests": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj3/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj1/manifest.json",
       "@type": "sc:Manifest",
-      "label": "obj3"
+      "label": "obj1"
     },
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj2/manifest.json",
@@ -18,9 +18,9 @@ layout: none
       "label": "obj2"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj1/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj3/manifest.json",
       "@type": "sc:Manifest",
-      "label": "obj1"
+      "label": "obj3"
     }
   ]
 }

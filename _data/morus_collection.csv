@@ -1,4 +1,4 @@
 pid,author,location,label,_date,order,layout,collection,thumbnail,full,manifest
 obj1,morus_contributor,c-squat,picture of morus,2017,0,morus_item,morus_collection,"/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg","/img/derivatives/iiif/images/obj1/full/1140,/0/default.jpg",/img/derivatives/iiif/obj1/manifest.json
 obj2,marlis_momber,el_jardin_de_parioso,early photo of el garden,1977,1,morus_item,morus_collection,"/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg","/img/derivatives/iiif/images/obj2/full/1140,/0/default.jpg",/img/derivatives/iiif/obj2/manifest.json
-obj3,morus_contributor,morus, 2020,2,morus_item,morus_item,morus_collection,"/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",/img/derivatives/iiif/obj3/manifest.json,/img/derivatives/iiif/obj3/manifest.json
+obj3,morus_contributor,morus,holiday_market,2020,2,morus_item,morus_collection,"/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg","/img/derivatives/iiif/images/obj3/full/1140,/0/default.jpg",/img/derivatives/iiif/obj3/manifest.json

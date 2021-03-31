@@ -1,0 +1,32 @@
+[
+  {
+    "pid": "obj1",
+    "location": "c-squat",
+    "label": "picture_of_morus_from_facebook",
+    "_date": "2017",
+    "collection": "morus_collection",
+    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+    "permalink": "/morus_collection/obj1",
+    "lunr_id": 0
+  },
+  {
+    "pid": "obj2",
+    "location": "el_jardin_de_parioso",
+    "label": "early_photo_of_el_garden",
+    "_date": "1977",
+    "collection": "morus_collection",
+    "thumbnail": "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
+    "permalink": "/morus_collection/obj2",
+    "lunr_id": 1
+  },
+  {
+    "pid": "obj3",
+    "location": "morus",
+    "label": "holiday_market",
+    "_date": "2020",
+    "collection": "morus_collection",
+    "thumbnail": "/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+    "permalink": "/morus_collection/obj3",
+    "lunr_id": 2
+  }
+]

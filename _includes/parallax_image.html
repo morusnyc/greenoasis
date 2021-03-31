@@ -7,7 +7,7 @@
 
 {%- capture style -%}
   background-image: url('{{ image | absolute_url }}');
-  background-position: 0% {{ include.y | default: '15%' }};
+  background-position: {{ include.x | default: '50%' }} {{ include.y | default: '15%' }};
 
   {% if include.height %}
   height: {{ include.height }} !important;
@@ -15,7 +15,10 @@
 {%- endcapture -%}
 
 <div class='wax-parallax full-width {% if page.banner %}top-banner{% else %}inline-parallax{% endif %}'>
-  <div class='parallax-image' style="{{ style | strip }}"></div>
+  <div class='parallax-image d-none d-md-block' style="{{ style | strip }}"></div>
+  <div class="d-block d-md-none w-100">
+    {% include simple_image_viewer.html full_image=image %}
+  </div>
 
   {% if item.label %}
   <div class='parallax-caption'>

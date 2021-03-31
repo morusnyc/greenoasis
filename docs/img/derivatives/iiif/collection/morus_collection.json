@@ -1,0 +1,23 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "/greenoasis/img/derivatives/iiif/collection/morus_collection.json",
+  "@type": "sc:Collection",
+  "label": "morus_collection",
+  "manifests": [
+    {
+      "@id": "/greenoasis/img/derivatives/iiif/obj1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj1"
+    },
+    {
+      "@id": "/greenoasis/img/derivatives/iiif/obj2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj2"
+    },
+    {
+      "@id": "/greenoasis/img/derivatives/iiif/obj3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj3"
+    }
+  ]
+}
